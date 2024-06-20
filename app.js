@@ -44,7 +44,7 @@ btn.addEventListener('click', () => {
 });
 
 function takeCommand(message) {
-    if (message.includes('hey Tejas') || message.includes('hello Tejas')) {
+    if (message.includes('hey tejas') ||message.includes('hi tejas')  || message.includes('hello tejas')) {
         speak("Hello Sir,  I am Tejas assistance  How May I Help You?");
     }else if(message.includes('how are you Tejas') || message.includes('how are you vivek')) {
         speak("I am fine  and You?");
