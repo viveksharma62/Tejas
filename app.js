@@ -50,7 +50,7 @@ function takeCommand(message) {
         speak("I am fine  and You?");
     }else if(message.includes('who developed you') || message.includes('father of tejas')) {
         speak("We have been developed by Vivek Sharma. ");
-    }else if(message.includes('you tejas') || message.includes('i love you')) {
+    }else if(message.includes('I love you tejas') || message.includes('i love you')) {
         speak("I love you to. But I am an assistant so I can only reply and cannot feel your feeling. ");
     } else if(message.includes('i am fine') || message.includes('fine')) {
         speak("it's good everyone should be good");
