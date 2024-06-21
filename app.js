@@ -46,15 +46,17 @@ btn.addEventListener('click', () => {
 function takeCommand(message) {
     if (message.includes('hey tejas') ||message.includes('hi tejas')  || message.includes('hello tejas')) {
         speak("Hello Sir,  I am Tejas assistance  How May I Help You?");
-    }else if(message.includes('how are you Tejas') || message.includes('how are you vivek')) {
+    }else if(message.includes('how are you tejas') || message.includes('how are you vivek') || message.includes('how are you')) {
         speak("I am fine  and You?");
-    }else if(message.includes('who made this') || message.includes('father of tejas')) {
-        speak("We have been developed by Vivek Kumar Sharma.");
-    }else if(message.includes('i am fine') || message.includes('fine')) {
+    }else if(message.includes('who developed you') || message.includes('father of tejas')) {
+        speak("We have been developed by Vivek Sharma. ");
+    }else if(message.includes('you tejas') || message.includes('i love you')) {
+        speak("I love you to. But I am an assistant so I can only reply and cannot feel your feeling. ");
+    } else if(message.includes('i am fine') || message.includes('fine')) {
         speak("it's good everyone should be good");
-    }else if(message.includes('who are you')) {
-        speak("i am robot assistance May I Help You ?");
-    }    else if (message.includes("open google")) {
+    }else if(message.includes('Who are you') || message.includes('tume kisane banaya') || message.includes('hu r u')) {
+        speak("i am robot assistance. I have been developed by Vivek Sharma. I am an assistant created to answer your questions. Can I help you ?");
+    }else if (message.includes("open google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
     } else if (message.includes("open youtube")) {
